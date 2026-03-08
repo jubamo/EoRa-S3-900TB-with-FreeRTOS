@@ -58,6 +58,9 @@
 
 #include "index7.h"         // HTML7 + processor7
 
+
+extern SX1262 radio;
+
 // -------------------- WiFi Credentials --------------------
 const char* ssid = "yourSSID";
 const char* password = "yourPassword";
